@@ -50,3 +50,50 @@ npm install
 npm run dev
 
 Le frontend est accessible sur : http://localhost:5173
+```
+
+Mini-projet 2 – Authentification avec JWT (JSON Web Token)
+🎯 Fonctionnalités
+Inscription et connexion avec génération de JWT
+
+Authentification sécurisée avec vérification du token
+
+Page d’accueil protégée, accessible uniquement après authentification
+
+Stockage du JWT côté client dans localStorage
+
+Middleware Express pour la validation du token
+
+(Bonus) Démo Swagger pour la documentation des routes API
+
+🔧 Technologies utilisées
+Backend : Node.js, Express.js, Sequelize, PostgreSQL (ou MySQL), JWT
+
+Frontend : Vue.js 3, Vue Router, Axios
+
+Authentification : JSON Web Token (JWT)
+
+ORM : Sequelize
+
+Stockage token : LocalStorage
+
+▶️ Instructions d'exécution
+📦 Backend
+bash
+Copier
+Modifier
+cd mini-projet-2/backend
+npm install
+# Configure le fichier .env avec tes identifiants DB
+# Crée la base de données (ex: jwt_auth_db) manuellement ou via un outil GUI (pgAdmin ou MySQL Workbench)
+node server.js
+Le backend est accessible sur : http://localhost:3000
+
+💻 Frontend
+bash
+Copier
+Modifier
+cd mini-projet-2/frontend
+npm install
+npm run serve
+Le frontend est accessible sur : http://localhost:8080 ou autre port spécifié par Vue.
