@@ -16,7 +16,7 @@ Chaque projet est séparé dans un dossier `mini-projet-X`, contenant :
 
 ---
 
-## 🧪 Mini-projet 1 – Authentification avec Passport-Local et Sessions
+## Mini-projet 1 – Authentification avec Passport-Local et Sessions
 
 ### 🎯 Fonctionnalités
 
