@@ -56,40 +56,37 @@ Le frontend est accessible sur : http://localhost:5173
 
 ### 🎯 Fonctionnalités
 
-Inscription et connexion avec génération de JWT
-
-Authentification sécurisée avec vérification du token
-
-Page d’accueil protégée, accessible uniquement après authentification
-
-Stockage du JWT côté client dans localStorage
-
-Middleware Express pour la validation du token
-
+- Inscription et connexion des utilisateurs avec génération de JSON Web Tokens (JWT)
+- Authentification sécurisée via un middleware qui valide le token sur chaque requête protégée
+- Accès à une page d’accueil sécurisée uniquement si l’utilisateur est authentifié
+- Stockage du JWT côté client dans le `localStorage`
+- Hachage des mots de passe avec `bcryptjs`
+- Documentation API optionnelle avec Swagger
 
 ### 🔧 Technologies utilisées
 
-Backend : Node.js, Express.js, Sequelize, PostgreSQL (ou MySQL), JWT
+- **Backend** : Node.js, Express.js, Sequelize, PostgreSQL (ou MySQL), JWT
+- **Frontend** : Vue.js 3, Vue Router, Axios
+- **Authentification** : JSON Web Token (JWT)
+- **ORM** : Sequelize
+- **Base de données** : PostgreSQL ou MySQL (selon configuration)
+- **Stockage du token** : LocalStorage
 
-Frontend : Vue.js 3, Vue Router, Axios
+### ▶️ Instructions d'exécution
 
-Authentification : JSON Web Token (JWT)
+#### 📦 Backend
 
-ORM : Sequelize
-
-Stockage token : LocalStorage
-
-### Instructions d'exécution
-
-📦 Backend
-
+```bash
 cd mini-projet-2/backend
 npm install
-node server.js
-Le backend est accessible sur : http://localhost:3000
+npm run dev
+Le backend est disponible sur : http://localhost:3000
 
-💻 Frontend
 cd mini-projet-2/frontend
 npm install
 npm run serve
 Le frontend est accessible sur : http://localhost:8080
+
+
+
+
