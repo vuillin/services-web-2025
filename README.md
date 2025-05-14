@@ -8,7 +8,7 @@
 
 ## 📚 Description générale
 
-Ce dépôt regroupe les 3 mini-projets réalisés dans le cadre du module **Services Web**.  
+Ce dépôt regroupe 2 mini-projets réalisés dans le cadre du module **Services Web**.  
 Chaque projet est séparé dans un dossier `mini-projet-X`, contenant :
 
 - Un dossier **backend/** (Express.js + Node.js)
